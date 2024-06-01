@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-//@CrossOrigin(origins = "*")   //이 새끼 있으면 망망ㅁ아
+//@CrossOrigin(origins = "*")   //무조건 없어야됨
 @Slf4j
 @RestController
 @RequestMapping("/auth")
